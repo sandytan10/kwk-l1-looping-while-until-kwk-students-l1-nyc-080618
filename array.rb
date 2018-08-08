@@ -1,9 +1,22 @@
 
+ages = [16, 17, 17, 14]
+
+total = 0 
+ages.each do |age|
+puts age
+total = total + age 
+end 
+puts total 
 
 
-books = ["A Tree Grows in Brooklyn", "Catching Fire", "The Book Thief", "Angels of Ashes", "To Kill a Mocking Bird" ]
-books.length
-puts books.length
+sports = ["basketball", "baseball", "football"]
+count = 1
+sports.each do |sport|
+
+  puts " Sport #{count} #{sport}"
+
+     count = count + 1
+end
 
 
 
